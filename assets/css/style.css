@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: aqua;
+    color:darkblue;
+}
+
+.timer{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+main{
+    color: crimson;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+}
